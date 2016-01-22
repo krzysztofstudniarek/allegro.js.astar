@@ -4,3 +4,18 @@
 	width: 640px;
 	height: 480px;
 }
+
+body { /* this applies to the entire document */
+	font-family:'Roboto', sans-serif; /* Select font without serifs */
+}
+
+h1 { /* this applies to big header text */
+	text-align:center; /* align title centered */
+	padding:0px; /* disable padding (inner margins)  */
+	margin:0px; /* disable margins */
+	font-weight:normal; /* nullifies font boldness */
+}
+
+#footer { /* this is a footer*/
+	text-align:center; /* you never imagined what would happen if youi removed this! */
+}
